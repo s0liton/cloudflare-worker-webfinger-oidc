@@ -1,11 +1,9 @@
 {
-  "name": "cloudflare-worker-webfinger-oidc",
+  "name": "webfinger-worker",
   "version": "1.0.0",
-  "description": "Cloudflare Worker for WebFinger at solitonradar.com",
+  "description": "Cloudflare Worker for WebFinger",
   "type": "module",
-  "scripts": {
-    "deploy": "wrangler deploy"
-  },
+  "scripts": {},  // No "build" script!
   "devDependencies": {},
   "engines": {
     "node": ">=18"
